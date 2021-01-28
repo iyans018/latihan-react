@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #f1f5f8;
+    color: black;
+}
+.container{
+    margin: 4rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    margin: 1rem auto;
+    width: 80%;
+    background: white;
+    border-radius: 0.5rem;
+}
+.btn-invicible{
+    font-family: 'Trebuchet MS';
+    font-size: 18px;
+    background: transparent;
+    border: transparent;
+    color: #2980b9;
+}
+.btn-invicible:focus{
+    outline: transparent;
+}
+.btn-invicible:hover{
+    color: #3498db;
+}

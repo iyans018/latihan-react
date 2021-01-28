@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #f1f5f8;
+    color: black;
+}
+h1 {
+    margin: 10px 0;
+}
+h2 {
+    margin: 10px 0;
+}
+h3 {
+    margin: 10px 0;
+}
+h4 {
+    margin: 10px 0;
+}
+h5 {
+    margin: 10px 0;
+}
+h6 {
+    margin: 10px 0;
+}
+input[type=text]{
+    background-color: #f1f5f8;
+    border-style: solid;
+    border-color: #f1f5f8;
+    height: 25px;
+}
+button{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2f3640;
+    color: white;
+    padding: 2px 8px;
+    border: 2px solid #2f3640;
+    border-radius: 4px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 40px auto;
+    padding: 20px;
+    width: 80%;
+    gap: 15px;
+}
+.item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    margin: 10px auto;
+    padding: 0px 20px;
+    width: 80%;
+}
+.modal{
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    color: crimson;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+.btn-invicible{
+    font-family: 'Trebuchet MS';
+    font-size: 18px;
+    background: transparent;
+    color: #0097e6;
+    border: transparent;
+    cursor: pointer;
+}
+.btn-invicible:hover{
+    color: #40739e;
+}
+.btn-invicible:focus{
+    outline: none;
+}
